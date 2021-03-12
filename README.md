@@ -1,0 +1,2 @@
+# myFuse
+Skeleton of fuse
