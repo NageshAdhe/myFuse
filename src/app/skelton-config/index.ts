@@ -1,4 +1,4 @@
-import { Config } from '@skeleton/types';
+import { SkeletonConfig } from '@skeleton/types';
 
 /**
  * Default Fuse Configuration
@@ -8,7 +8,7 @@ import { Config } from '@skeleton/types';
  * about changing these options per component basis.
  */
 
-export const config: Config = {
+export const config: SkeletonConfig = {
     layout          : {
         style    : 'vertical-layout-1',
         width    : 'fullwidth',

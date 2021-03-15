@@ -1,4 +1,4 @@
-export interface Config
+export interface SkeletonConfig
 {
     layout: {
         style: string,
