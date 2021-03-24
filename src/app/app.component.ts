@@ -13,7 +13,7 @@ import { SkeletonConfigService } from '@skeleton/services/config.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  fuseConfig: any;
+  layMatConfig: any;
   navigation: any;
 
   // Private
@@ -47,9 +47,9 @@ export class AppComponent {
          this._configService.config
              .pipe(takeUntil(this._unsubscribeAll))
              .subscribe((config) => {
-                 this.fuseConfig = config;
+                 this.layMatConfig = config;
  
-                 if ( this.fuseConfig.layout.width === 'boxed' )
+                 if ( this.layMatConfig.layout.width === 'boxed' )
                  {
                      this.document.body.classList.add('boxed');
                  }

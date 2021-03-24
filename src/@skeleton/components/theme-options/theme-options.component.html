@@ -1,0 +1,43 @@
+<div class="theme-options-panel" >
+
+    <div class="header">
+
+        <span class="title">Theme Options</span>
+<!-- 
+        <button mat-icon-button class="close-button" (click)="toggleSidebarOpen('themeOptionsPanel')">
+            <mat-icon>close</mat-icon>
+        </button> -->
+
+    </div>
+
+    <form [formGroup]="form">
+
+        <!-- LAYOUT STYLES -->
+     <div class="group" formGroupName="layout">
+
+            <h2>Layout Styles</h2>
+
+            <mat-radio-group  formControlName="style">
+
+                <mat-radio-button class="mb-12" value="vertical-layout-1">
+                    Vertical Layout #1
+                </mat-radio-button>
+
+                <mat-radio-button class="mb-12" value="vertical-layout-2">
+                    Vertical Layout #2
+                </mat-radio-button>
+
+                <mat-radio-button class="mb-12" value="vertical-layout-3">
+                    Vertical Layout #3
+                </mat-radio-button>
+
+                <mat-radio-button class="mb-12" value="horizontal-layout-1">
+                    Horizontal Layout #1
+                </mat-radio-button>
+
+            </mat-radio-group>
+
+        </div>
+
+    </form>
+</div>
